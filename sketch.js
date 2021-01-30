@@ -37,7 +37,7 @@ function setup() {
   //making of the STONE body
   stone = new Stone(210,418,50);
   //CONSTRAINT body making
-  slingshot = new SlingShot(stone.body,{x:80,y:418});
+  slingshot = new SlingShot(stone.body,{x:50,y:418});
   //making of the GROUND body
 	ground = new Ground(675,680,1350,20);
 
